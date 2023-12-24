@@ -7,9 +7,9 @@ on:
     paths:
       - '*'
 
-concurrency:
-  cancel-in-progress: true
-  group: publish-${{ github.head_ref || github.ref }}
+# concurrency:
+#   cancel-in-progress: true
+#   group: publish-${{ github.head_ref || github.ref }}
 
 jobs:
   publish:

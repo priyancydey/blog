@@ -21,7 +21,6 @@ jobs:
       - name: blogpub
         uses: protiumx/blogpub@main
         with:
-          articles_folder: /
           devto_api_key: ${{ secrets.DEVTO_API_KEY }}
           gh_token: ${{ secrets.GH_TOKEN }}
           medium_token: ${{ secrets.MEDIUM_TOKEN }}

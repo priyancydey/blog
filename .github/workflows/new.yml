@@ -1,0 +1,11 @@
+name: CI # name of the workflow
+
+on: [push] # triggers the workflow on push or pull request events but only for the master branch
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+    steps: # steps are the individual tasks that make up a job
+      - uses: actions/checkout@v2
+      - name: Run a one-line script # name is the name of the step
+        run: echo Hello, world!

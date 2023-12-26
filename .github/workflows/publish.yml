@@ -1,11 +1,6 @@
 name: 'publish'
 
-on:
-  push:
-    branches:
-      - 'main'
-    paths:
-      - '/'
+on: [push]
 
 # concurrency:
 #   cancel-in-progress: true

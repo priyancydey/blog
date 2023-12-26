@@ -18,5 +18,5 @@ jobs:
         with:
           devto_api_key: ${{ secrets.DEVTO_API_KEY }}
           gh_token: ${{ secrets.GH_TOKEN }}
-          medium_token: ${{ secrets.MEDIUM_TOKEN }}
-          medium_user_id: 1f3b633f149233c057af77f0016a9421fa520b9a59f97f5bd07201c2ca2a4a6bc
+          # medium_token: ${{ secrets.MEDIUM_TOKEN }}
+          # medium_user_id: 1f3b633f149233c057af77f0016a9421fa520b9a59f97f5bd07201c2ca2a4a6bc

@@ -11,12 +11,10 @@ jobs:
     name: publish new article
     runs-on: ubuntu-latest    
     steps:
-      - name: blogpub
-        uses: protiumx/blogpub@v0.8.0
       - name: Checkout
         uses: actions/checkout@v3
       - name: blogpub
-        uses: protiumx/blogpub@main
+        uses: protiumx/blogpub@v0.8.0
         with:
           devto_api_key: ${{ secrets.DEVTO_API_KEY }}
           gh_token: ${{ secrets.GH_TOKEN }}
